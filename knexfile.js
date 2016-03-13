@@ -2,7 +2,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/passport-basic'
+    connection: 'postgres://localhost/linkedin-passport'
   },
 
   production: {

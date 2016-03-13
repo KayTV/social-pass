@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div>
+          <div class="navbar-header">
+            <a class="navbar-brand">Social Passport</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/auth/linkedin"><span class="glyphicon glyphicon-log-in"></span> Linkedin Login</a></li>
+            <li><a href="/auth/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     {% block content %}
     {% endblock %}
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
